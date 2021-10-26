@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const Node = require('./node.js');
 
@@ -46,7 +46,7 @@ class LinkedList {
 		}
 		arr.forEach(index => {
 			string = string.concat(`{${index}} => `);
-			console.log('CURRENT STRING', string)
+			console.log('CURRENT STRING', string);
 		});
 		string = `${string}NULL`;
 		return string;
