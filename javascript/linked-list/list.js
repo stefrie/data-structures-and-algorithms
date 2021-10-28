@@ -127,21 +127,55 @@ class LinkedList {
 		// console.log('Length:', length);
 		return arr[last];
 	}
+
+	zipLists(list1, list2) {
+		// handle for potential empty LL
+		// handle for potential difference in size of LL
+		let list1curr = list1, list2curr = list2;
+		let list1next, list2next;
+
+		while (list1curr != null && list2curr != null) {
+			list1next = list1curr.next;
+			list2next = list2curr.next;
+
+			// Make list2curr as next of list1curr
+			list2curr.next = list1next; // Change next pointer of list2curr
+			list1curr.next = list2curr; // Change next pointer of list1curr
+
+			// Update current pointers for next iteration
+			list1curr = list1next;
+			list2curr = list2next;
+		}
+
+		list2 = list2curr;
+		return list2;
+	}
 }
 
-const list = new LinkedList();
+// const list = new LinkedList();
 
-list.head = new Node(1);
-list.head.next = new Node(13);
-list.head.next.next = new Node(4);
-list.head.next.next.next = new Node(9);
-list.head.next.next.next.next = new Node(20);
+// list.head = new Node(1);
+// list.head.next = new Node(13);
+// list.head.next.next = new Node(4);
+// list.head.next.next.next = new Node(9);
+// list.head.next.next.next.next = new Node(20);
 // console.log(list);
+
+let list1 = new LinkedList(10);
+list1.append(20);
+list1.append(30);
+list1.append(40);
+
+let list2 = new LinkedList(2);
+list2.append(4);
+list2.append(6);
+list2.append(8);
 
 // list.append(23);
 // list.insertBefore(2, 27);
 // list.insertAfter(25, 123);
+// console.log(list.kthFromEnd(4));
 
-console.log(list.kthFromEnd(4));
+// console.log(list.zipLists(listOne, listTwo));
 
 module.exports = LinkedList;
