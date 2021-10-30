@@ -15,7 +15,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 - [Linked-List](.javascript/linked-list/README.md)
 - [Linked-List-Insertions](.javascript/linked-list/README.md)
 - [Linked-List-Kth](.javascript/linked-list/README.md)
-- []()
+- [Linked-List-Zip](.javascript/linked-list/README.md)
 - []()
 - []()
 - []()
