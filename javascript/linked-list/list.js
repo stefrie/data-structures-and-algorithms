@@ -134,7 +134,7 @@ class LinkedList {
 		let list1curr = list1, list2curr = list2;
 		let list1next, list2next;
 
-		while (list1curr != null && list2curr != null) {
+		while (list1curr !== null && list2curr != null) {
 			list1next = list1curr.next;
 			list2next = list2curr.next;
 
