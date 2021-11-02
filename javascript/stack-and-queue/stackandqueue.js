@@ -1,4 +1,5 @@
 'use strict';
+
 ////// ----- Node -----//////
 class Node {
 	constructor(value) {
