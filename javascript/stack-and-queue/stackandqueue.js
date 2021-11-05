@@ -81,7 +81,7 @@ let stack = new Stack();
 stack.push(5);
 stack.push(10);
 stack.push(15);
-console.log(JSON.stringify(stack));
+// console.log(JSON.stringify(stack));
 
 let one = stack.pop(); // 5
 let two = stack.pop(); // 10
