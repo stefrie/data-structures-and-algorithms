@@ -59,6 +59,18 @@ class BinarySearchTree {
 		}
 	}
 
+	findMax() {
+		let currNode = node.data;
+		let leftNode = findMax(currNode.left);
+		let rightNode = findMax(currNode.right);
+
+		if (leftNode > currNode)
+			currNode = leftNode;
+		if (rightNode > currNode)
+			currNode = rightNode;
+		return currNode;
+	}
+
 	preOrder(current) {
 		console.log(current.value);
 		if (current.left) {
