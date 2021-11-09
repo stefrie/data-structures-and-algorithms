@@ -8,13 +8,13 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 Links below to Code 401 Code Challenges README files:
 
-- [Array-Reverse](./javascript/array-reverse/README.md)
-- [Array-Insert-Shift](./javascript/array-insert-shift/README.md)
-- [Array-Binary-Search](./javascript/array-binary-search/README.md)
+- [Array-Reverse](/javascript/array-reverse/README.md)
+- [Array-Insert-Shift](/javascript/array-insert-shift/README.md)
+- [Array-Binary-Search](/javascript/array-binary-search/README.md)
 - Whiteboard Mock Technical Interview
-- [Linked Lists](./javascript/linked-list/README.md)
-- [Stacks and Queues](./javascript/stack-and-queue/README.md)
-- [Trees](./javascript/trees/README.md)
+- [Linked Lists](/javascript/linked-list/README.md)
+- [Stacks and Queues](/javascript/stack-and-queue/README.md)
+- [Trees](/javascript/trees/README.md)
 - []()
 - []()
 - []()
