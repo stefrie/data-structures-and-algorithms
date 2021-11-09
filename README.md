@@ -6,18 +6,15 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+Links below to Code 401 Code Challenges README files:
 
 - [Array-Reverse](.javascript/array-reverse/README.md)
 - [Array-Insert-Shift](.javascript/array-insert-shift/README.md)
 - [Array-Binary-Search](.javascript/array-binary-search/README.md)
 - Whiteboard Mock Technical Interview
-- [Linked-List](.javascript/linked-list/README.md)
-- [Linked-List-Insertions](.javascript/linked-list/README.md)
-- [Linked-List-Kth](.javascript/linked-list/README.md)
-- [Linked-List-Zip](.javascript/linked-list/README.md)
-- []()
-- []()
+- [Linked Lists](.javascript/linked-list/README.md)
+- [Stacks and Queues](.javascript/stack-and-queue/README.md)
+- [Trees](.javascript/trees/README.md)
 - []()
 - []()
 - []()
