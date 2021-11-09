@@ -59,8 +59,11 @@ class BinarySearchTree {
 		}
 	}
 
-	findMax() {
-		let currNode = node.data;
+	findMax(node) {
+		if (node === null)
+			return;
+
+		let currNode = node.value;
 		let leftNode = findMax(currNode.left);
 		let rightNode = findMax(currNode.right);
 
@@ -130,7 +133,6 @@ console.log('contain');
 tree.contain(41);
 console.log('------------');
 console.log('add');
+console.log('Find Max: ', findMax(tree.root));
 
 module.exports = { Node, BinarySearchTree };
-
-
