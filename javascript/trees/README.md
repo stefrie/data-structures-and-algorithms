@@ -44,8 +44,20 @@ Write the following method for the Binary Tree class:
 - Returns: number
 - Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
-## Approach & Efficiency
+### **Code Challenge 17: Traverse a Binary Tree Breadth-first**
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+BRANCH NAME: `tree-breadth-first`
+
+- Write a function called breadth first
+- Arguments: tree
+- Return: list of all values in the tree, in the order they were encountered
+
+NOTES: Tray Chea and I worked closely together on this code challenge ensuring we both understood how the notation reflected the Nodes and their position in the tree
+
+## Code Challenge 15, 16
 
 ![tree](tree.PNG)
+
+## Code Challenge 17
+
+![breadth-first](breadth-first.PNG)
